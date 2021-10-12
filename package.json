@@ -1,0 +1,21 @@
+{
+  "name": "CursotThree",
+  "version": "1.0.0",
+  "source": "index.html",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel --open",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-rc.0",
+    "parcel-reporter-multiple-static-file-copier": "^1.0.5",
+    "three": "^0.133.1"
+  },
+  "multipleStaticFileCopier": [
+    {
+      "origin": "public",
+      "destination": "dist/public/"
+    }
+  ]
+}
